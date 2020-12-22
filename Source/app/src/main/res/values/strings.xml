@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Weather App</string>
+    <string name="next">Next</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="monday">Monday</string>
 </resources>
