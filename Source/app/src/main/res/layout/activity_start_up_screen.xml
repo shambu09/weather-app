@@ -10,17 +10,21 @@
     <ImageView
         android:id="@+id/splashbg"
         android:layout_width="wrap_content"
-        android:layout_height="900dp"
-
+        android:layout_height="1000dp"
+        android:background="@drawable/bga"
+        android:elevation="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="150dp"
         android:layout_height="200dp"
+        android:elevation="2dp"
         android:src="@drawable/rainlogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,6 +39,7 @@
         android:id="@+id/AppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:elevation="2dp"
         android:alpha="0"
         android:text="RainCheck"
         android:textSize="40dp"
@@ -47,6 +52,7 @@
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/Animation"
         app:lottie_autoPlay="true"
+        android:elevation="2dp"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         app:layout_constraintVertical_bias="0"
@@ -56,6 +62,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AppName" />
 
+    <com.cuberto.liquid_swipe.LiquidPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
