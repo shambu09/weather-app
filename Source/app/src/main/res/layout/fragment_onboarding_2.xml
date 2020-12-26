@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/bg">
+    android:background="@color/statusbar">
 
     <ImageView
         android:id="@+id/imageView"
@@ -23,29 +25,26 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="RainCheck"
-        android:fontFamily="sans-serif-light"
         android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        style="bold"
-        android:layout_width="40dp"
-        android:layout_height="20dp"
-        android:layout_marginRight="30dp"
-        android:fontFamily="sans-serif-light"
-        android:text="Skip"
-        android:textColor="#F3DD25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skip"
+        android:textColor="@color/yellow"
         android:textSize="16sp"
         android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="1"
+        android:layout_marginRight="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
@@ -54,23 +53,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:text="Never"
-        android:textColor="@color/white"
+        android:text="Worried"
         android:textSize="42sp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.161" />
+        app:layout_constraintVertical_bias="0.063" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
+        android:text="about bad weather?"
         android:textColor="@color/white"
-        android:text="forget your umbrella!"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,7 +84,7 @@
         android:layout_width="245dp"
         android:layout_height="70dp"
         android:layout_marginEnd="100dp"
-        android:text="Because we do the rain-check for you ;) pun intended !"
+        android:text="Worry no more! This supercool app keeps you ready to face a rainy day :)"
         android:textSize="16sp"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -108,5 +107,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

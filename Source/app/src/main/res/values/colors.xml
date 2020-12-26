@@ -11,6 +11,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#e3342f</color>
+    <color name="yellow">#FFFF41</color>
 
     <!-- colors for buttons -->
     <color name="gradient_start_color">#4c84ff</color>

@@ -40,12 +40,14 @@ public class Start_up_screen extends AppCompatActivity {
         Splashbg = findViewById(R.id.splashbg);
         lottieAnimationView = findViewById(R.id.Animation);
 
+        Splashbg.animate().translationY(-4000).setDuration(1000).setStartDelay(2000);
+        lottieAnimationView.animate().translationY(1800).setDuration(1000).setStartDelay(2000);
+
         viewPager = findViewById(R.id.pager);
         pagerAdapter = new ScreenSliderPageAdapter(getSupportFragmentManager());
         viewPager.setAdapter(pagerAdapter);
 
-        Splashbg.animate().translationY(-2500).setDuration(1000).setStartDelay(2000);
-        lottieAnimationView.animate().translationY(1800).setDuration(1000).setStartDelay(2000);
+
 
         
     }

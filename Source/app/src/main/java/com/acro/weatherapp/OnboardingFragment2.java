@@ -10,10 +10,10 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 public class OnboardingFragment2 extends Fragment {
-
+    @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
-        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_onboarding_3, container, false);
+        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_onboarding_2, container, false);
         return root;
 
     }
