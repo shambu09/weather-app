@@ -56,4 +56,3 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-Closes #2 
