@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#FFFF41">
+
+    <Button
+        android:id="@+id/button_main"
+        android:layout_width="191dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:text="Get Started"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/gradient_start_color"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.2" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -15,25 +31,9 @@
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.25" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:text="RainCheck"
-        android:fontFamily="sans-serif-light"
-        android:textColor="#0279E7"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0" />
-
-    <TextView
+    <!--     <TextView
         style="bold"
         android:layout_width="40dp"
         android:layout_height="20dp"
@@ -48,6 +48,23 @@
         app:layout_constraintHorizontal_bias="1"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView" />
+-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-light"
+        android:text="RainCheck"
+        android:textColor="#0279E7"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
 
     <TextView
         android:id="@+id/textView2"
@@ -82,8 +99,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="245dp"
-        android:layout_height="70dp"
+        android:layout_width="244dp"
+        android:layout_height="59dp"
         android:layout_marginEnd="100dp"
         android:text="We will with be you through every summer and winter rain!"
         android:textColor="#0279E7"
@@ -98,16 +115,21 @@
         app:layout_constraintWidth_percent=".5" />
 
     <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="50dp"
         android:layout_height="10dp"
-        android:src="@drawable/tab3"
-        app:layout_constraintHorizontal_bias="0"
-        app:layout_constraintVertical_bias="0.6"
         android:layout_marginLeft="5dp"
+        android:src="@drawable/tab3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.6" /><![CDATA[
+
+    305dp"
+        tools:layout_editor_absoluteY="362dp" />
 
 
+]]>
 </androidx.constraintlayout.widget.ConstraintLayout>

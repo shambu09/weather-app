@@ -33,6 +33,7 @@ public class Start_up_screen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_start_up_screen);
 
         logo = findViewById(R.id.logo);
