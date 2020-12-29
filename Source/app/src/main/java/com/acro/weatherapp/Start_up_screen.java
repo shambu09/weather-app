@@ -8,10 +8,13 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,6 +28,7 @@ public class Start_up_screen extends AppCompatActivity {
     TextView appname;
     LottieAnimationView lottieAnimationView;
     private static final int NUM_PAGES =3;
+    public Button buttonst;
     private ViewPager viewPager;
     private ScreenSliderPageAdapter pagerAdapter;
 
@@ -33,6 +37,7 @@ public class Start_up_screen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
 
         setContentView(R.layout.activity_start_up_screen);
 
@@ -48,10 +53,12 @@ public class Start_up_screen extends AppCompatActivity {
         pagerAdapter = new ScreenSliderPageAdapter(getSupportFragmentManager());
         viewPager.setAdapter(pagerAdapter);
 
+        buttonst = (Button) findViewById(R.id.buttonst);
 
 
-        
     }
+
+
     private class ScreenSliderPageAdapter extends FragmentStatePagerAdapter{
 
 
@@ -80,5 +87,9 @@ public class Start_up_screen extends AppCompatActivity {
         public int getCount() {
             return NUM_PAGES;
         }
+    }
+    public void openMainActivity(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

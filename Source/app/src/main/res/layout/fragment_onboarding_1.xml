@@ -17,14 +17,15 @@
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.3"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="RainCheck"
+        android:text="Raincheck"
         android:textColor="@color/teal_200"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
@@ -53,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:text="Worried"
+        android:text="@string/worried"
         android:textColor="@color/black"
         android:textSize="42sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:text="about bad weather?"
+        android:text="@string/about_bad_weather"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -84,7 +85,7 @@
         android:layout_width="245dp"
         android:layout_height="70dp"
         android:layout_marginEnd="100dp"
-        android:text="Worry no more! This supercool app keeps you ready to face a rainy day :)"
+        android:text="@string/worry_no_more_this_supercool_app_keeps_you_ready_to_face_a_rainy_day"
         android:textSize="16sp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -102,11 +103,12 @@
         android:src="@drawable/tab1"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0.6"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:contentDescription="@string/todo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
