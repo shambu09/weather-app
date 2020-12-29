@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Weather App</string>
+    <string name="next">Next</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="monday">Monday</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="_24x7">24x7</string>
+    <string name="get_started">Get Started</string>
+    <string name="raincheck1">RainCheck</string>
+    <string name="throughout_clock_notifications">throughout clock notifications :)</string>
+    <string name="we_will_with_be_you_through_every_summer_and_winter_rain">We will with be you through every summer and winter rain!</string>
+    <string name="todo1">TODO1</string>
+    <string name="todo2">TOD2O</string>
+    <string name="raincheck2">RainCheck</string>
+    <string name="worried">Worried</string>
+    <string name="about_bad_weather">about bad weather?</string>
+    <string name="worry_no_more_this_supercool_app_keeps_you_ready_to_face_a_rainy_day">Worry no more! This supercool app keeps you ready to face a rainy day :)</string>
+    <string name="todo0">TODO3</string>
+    <string name="todo">TODO4</string>
 </resources>
