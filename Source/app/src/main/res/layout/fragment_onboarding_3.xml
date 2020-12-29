@@ -35,22 +35,6 @@
         app:layout_constraintVertical_bias="0.25"
         android:contentDescription="@string/todo" />
 
-    <!--     <TextView
-        style="bold"
-        android:layout_width="40dp"
-        android:layout_height="20dp"
-        android:layout_marginRight="30dp"
-        android:fontFamily="sans-serif-light"
-        android:text="Skip"
-        android:textColor="#0064B1"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
--->
 
     <TextView
         android:id="@+id/textView"
